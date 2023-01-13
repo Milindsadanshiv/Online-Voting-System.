@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	background-image:url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/Indian_Flag_in_the_sky_1200x768.jpeg?size=1200:675);
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:Helvetica;
+	margin-bottom:30px;
+}
+.welcome-form {
+	background-color:#F3CCFF;
+	font-size:35px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:47%;
+	margin-top:7%;
+	margin-right:10%;
+	border-radius:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.welcome-form a{
+	color:black;
+}
+.welcome-form a:hover{
+	color:blue;
+}
+.form-register {
+	background-color:#F3CCFF;
+	font-size:35px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:47%;
+	margin-top:5%;
+	margin-right:10%;
+	border-radius:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.form-register button{
+	width:350px;
+	height:40px;
+	margin-top:10px;
+	font-size:25px;
+	margin-top:20px;
+	background-color:orange;
+    border-radius:20px;
+    margin-left:17%;
+    text-align:center;
+}
+.form-register input,textarea{
+	width:400px;
+	height:50px;
+	
+	font-size:25px;
+	margin-top:10px;
+	margin-bottom:1px;
+	background-color:white;
+   text-align:center;
+    margin-left:11%;
+    border-radius:20px;
+}
+.form-register label{
+	margin-left:12%;
+}
+.form-register button:hover{
+	background-color:blue;
+}
+.form-register select{
+	width:65%;
+	height:40px;
+	margin-left:16%;
+	margin-top:25px;
+	margin-bottom:25px;
+	border-radius:25px;
+	text-align:center;
+	font-size:20px;
+}

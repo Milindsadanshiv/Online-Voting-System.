@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	background-image:url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/Indian_Flag_in_the_sky_1200x768.jpeg?size=1200:675);
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:Helvetica;
+	margin-bottom:30px;
+}
+.checkTable{
+	background-color:#FFC6D3;
+	height:87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+	opacity:0.9;
+}
+.checkTable img{
+	height:100px;
+	width:100px;
+}
+.checkTable td,th{
+	padding:10px 60px;
+}

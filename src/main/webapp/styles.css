@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	background-image:url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/Indian_Flag_in_the_sky_1200x768.jpeg?size=1200:675);
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:Helvetica;
+	margin-bottom:30px;
+}
+nav{
+	background-color:orange;
+	font-size:35px;
+
+	display:flex;
+    justify-content:right;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+nav a{
+	color:white;
+	padding-left:20px;
+    padding-right:20px;
+}
+nav a:hover{
+	color:blue;
+}
+
+.form-container {
+	background-color:#F3CCFF;
+	font-size:35px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:47%;
+	margin-top:7%;
+	margin-right:10%;
+	border-radius:20px;
+	padding-bottom:20px;
+	opacity:0.8;
+}
+
+.form-container button{
+	width:350px;
+	height:40px;
+	margin-top:10px;
+	font-size:25px;
+	margin-top:20px;
+	background-color:orange;
+    border-radius:20px;
+    margin-left:17%;
+}
+.form-container input,textarea{
+	width:400px;
+	height:50px;
+	
+	font-size:25px;
+	margin-top:10px;
+	margin-bottom:1px;
+	background-color:white;
+   text-align:center;
+    margin-left:11%;
+    border-radius:20px;
+}
+.form-container a{
+	color:black;
+	margin-left:42%;
+}
+.form-container button:hover{
+	background-color:blue;
+}
+.form-container a:hover{
+    color:blue;
+}
+
+.form-container h3{
+	margin-left:19%;
+}
+.form-container label{
+	margin-left:39%;
+	margin-top:20%;
+}
+.about{
+	background-color:#FFC6D3;
+	font-family:Helvetica;
+	width:100vx;
+	height:80vh;
+	padding-left:30px;
+	opacity:0.8;
+}
+.about p{
+	padding-top:40px;
+	font-weight:bold;
+}
+.about img{
+	width:300px;
+	height:300px;
+	margin-right:10%;
+}
